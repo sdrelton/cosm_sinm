@@ -2,7 +2,7 @@
 This repository contains MATLAB functions to compute the matrix cosine, sine, and both simultaneously.
 The algorithms are taken from a recent paper on the subject by Al-Mohy, Higham, and Relton (see bottom).
 
-## Usage
+## Details
 ```matlab
 % Example
 A = randn(10);
@@ -23,6 +23,12 @@ The input matrix must be finite and square, whilst the second argument can be on
 - 2 -- Use a complex Schur decomposition.
 
 Using a Schur decomposition can be faster when A is large and nonnormal, and can also be more accurate.
+
+You can check that the functions are working by using the test script. In MATLAB run the following.
+
+```matlab
+test_cosm_sinm
+```
 
 For more detail on the algorithm details and performance please see the following paper.
 
