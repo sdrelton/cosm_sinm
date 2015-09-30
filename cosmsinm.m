@@ -22,8 +22,8 @@ function [C, S] = cosmsinm(A, schur_fact)
 %
 % Corresponding algorithm from the paper: Algorithms 6.1 & 6.2
 %
-% Author: N. J. Higham and Samuel D. Relton.
-% Date: September 22, 2015.
+% Author: A. H. Al-Mohy, N. J. Higham, and Samuel D. Relton.
+% Date: September 30, 2015.
 
 %% Check input parameters.
 if nargin < 1
