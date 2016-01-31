@@ -101,7 +101,7 @@ end
 %% Finalize
 if transposed
     C = transpose(C);
-    S = tranpose(S);
+    S = transpose(S);
 end
 
 if useschur
